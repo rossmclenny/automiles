@@ -4,32 +4,35 @@
     box-sizing: border-box;
 }
 
-.carousel-item {
-    height: 80vh;
+.home {
+    background-image: url("/assets/img/carillionbanner.jpeg");
+    height: 100vh;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
-.bg-one {
-    background-image: url(/assets/img/goonzire.png);
-    background-size: cover;
-    background-position: ;
-    background-repeat: no-repeat;
+.home-overlay {
+    align-items: center;
 }
 
-.bg-two {
-    background-image: url(/assets/img/ianjekelisre.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.logo img {
+    width: 400px;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
 }
 
-.bg-three {
-    background-image: url(/assets/img/briankingre.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.down-arrow {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: pink;
+    font-size: 50px;
 }
 
-.container {
-    width: 100vw;
+.navbar {
+    padding-top: 0;
 }
