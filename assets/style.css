@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    height: 80vh;
+    position: relative;
+}
+
+.bg-one {
+    background-image: url(/assets/img/goonzire.png);
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+}
+
+.bg-two {
+    background-image: url(/assets/img/ianjekelisre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-three {
+    background-image: url(/assets/img/briankingre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100vw;
+}
