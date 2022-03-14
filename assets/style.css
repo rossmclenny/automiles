@@ -2,37 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.home {
-    background-image: url("/assets/img/carillionbanner.jpeg");
-    height: 100vh;
-   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.home-overlay {
-    align-items: center;
-}
-
-.logo img {
-    width: 400px;
-    position: absolute;
-    bottom: 100px;
-    right: 50px;
-}
-
-.down-arrow {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    color: pink;
-    font-size: 50px;
+    color: #E3D9CA;
 }
 
 .navbar {
-    padding-top: 0;
+    color: #E3D9CA;
 }
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section-overlay {
+    text-align: center;
+    font-size: 6rem;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: #E3D9CA;
+}
+
+.section-overlay img {
+    width: 500px;
+}
+
+.video-container {
+    position: absolute;
+    height: 100vh;
+    transform: scale(1.1);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1000px;
+    background-color: black;
+}
+
+.hide-logo img {
+    opacity: 0;
+}
+
+.navbar img {
+    transition: 1s opacity;
+}
+
+.about {
+    background-image: url(/assets/img/carillionsite.jpeg);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/carillionsite.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+
+
+
+
