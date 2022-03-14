@@ -58,14 +58,43 @@
     transition: 1s opacity;
 }
 
+.grid-overlay-title {
+    text-align: center;
+}
+
+.grid-overlay-text {
+    text-align: left;
+}
+
 .about {
     background-image: url(/assets/img/carillionsite.jpeg);
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/carillionsite.jpeg);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/assets/img/carillionsite.jpeg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 4;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
 }
+
+
+
+.quote {
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: green;
+}
+
+.guitars {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: pink;
+}
+
+
 
 
 
